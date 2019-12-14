@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comfortaa', serif;
+    color: #766B33;
+    background: #F1E24B;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    height: 1.8em;
+    width: 5.31em;
+}
+
+.stretching{
+    font-size: 1em;
+    position: absolute;
+    font-weight: bold;
+    color: #ff5b9d;
+    z-index: 1;
+    left:0;
+}
+
+.smolensk{
+    font-size:0.675em;
+    position: absolute;
+    font-weight: bold;
+    text-align: right;
+    bottom: 0;
+    margin-left: 1.449em;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    .header {
+        font-size: 38px;
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .header {
+        font-size: 54px;
+    }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    .header {
+        font-size: 160px;
+    }
+}
